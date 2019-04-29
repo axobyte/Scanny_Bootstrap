@@ -11,3 +11,28 @@ h1, h2, h3, h4, h5, h6, p, b, i {
 .logo {
 	width: 200px;
 }
+.topbar {
+	margin-top: 20px;
+}
+.bluetext {
+	color: #3185ED!important;
+}
+.camera {
+    position: -webkit-sticky;
+    position: fixed;
+    bottom: 0;
+    left: 40%;
+    text-align: center;
+    background: #223C91;
+	border: 5px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 100%;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 990px) {
+  .camera {
+    left: 45%;
+  }
+}
